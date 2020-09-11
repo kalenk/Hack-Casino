@@ -15,12 +15,13 @@ casino = input()
 
 if casino == "Азино":
 
-	print("Ищем ключ от сервера...")	time.sleep(15)
+	print("Ищем ключ от сервера...")
+	time.sleep(15)
 
 	print("К сожалению, ключ найти не удалось") 
-
+	exit(0)
 else:
-
+	time.sleep(10)
 	print(f"Ключ от казино {casino} найден") 
 
 	time.sleep(10)
