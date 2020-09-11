@@ -9,6 +9,22 @@ print("──║║──║║──║║")
 print("──╚╝──╚╝──╚╝") 
 print("напукал: KoLenka") 
 time.sleep(5)
+print("Какое казино будем взламывать?") 
+
+casino = input() 
+
+if casino == "Азино":
+
+	print("Ищем ключ от сервера...")	time.sleep(15)
+
+	print("К сожалению, ключ найти не удалось") 
+
+else:
+
+	print(f"Ключ от казино {casino} найден") 
+
+	time.sleep(10)
+
 print("Ищем ближайшее казино... ") 
 time.sleep(10)
 print("Ищем базу данных казино...") 
