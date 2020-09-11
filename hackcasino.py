@@ -149,7 +149,7 @@ time.sleep(random.randint(220,300))
 print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~") 
 print("Казино взломано на 96%") 
 print("Выкачанно рублей - ", random.randint(15000000,16400000))
-time.sleep(random.randint(230,300)
+time.sleep(random.randint(230,300)) 
 
 print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~") 
 print("Казино взломано на 99%") 
